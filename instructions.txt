@@ -1,0 +1,10 @@
+install celery  + install redis     + downloaod redis message browker on your system
+To start 2nd terminal for backend task command --->    celery -A   djangocelery worker -l Info --pool=solo
+
+
+To start 3rd terminal for periodic task for celery beat -->   celery -A   djangocelery beat -l Info
+
+
+.delay()    .apply_async() both perofrm same but Async for arguments and delary() is for shortcut method
+
+
